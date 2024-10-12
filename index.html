@@ -5,22 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JJ AGUAS</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <h3>
-        BEM VINDO A,
-    </h3>
-    <H1 id="titulo">JJ AGUAS</H1>
-
-    <form>
-        <label for="usuario-texto">usuario</label><br>
-        <input type="text" id="usuario-input"><br>
-        <label for="senha-texto">senha</label><br>
-        <input type="text" id="senha-input"><br><br>
-        <input type="submit" value="entrar">
-      </form> 
-  
+    <div id="logo">
+        <h6>
+            BEM VINDO A,
+        </h6>
+        <H1 id="titulo">JJ AGUAS</H1>
+        <br>
+    </div>
+    <div id="container-card">
+        <div id="formulario">
+            <form>
+                <div id="container-dados">
+                    <label for="usuario-texto" id="usuario">Usuario:</label><br>
+                    <input type="text" id="usuario-input" placeholder="insira seu usuario"><br>
+                    <label for="senha-texto" id="senha">Senha:</label><br>
+                    <input type="password" id="senha-input" placeholder="insira sua senha"><br><br>
+                </div>
+                <div id="container-botao">
+                    <input type="submit" value="Entrar" id="botao-entrar">
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
